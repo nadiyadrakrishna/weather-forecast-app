@@ -99,13 +99,8 @@ Push to the branch
 
 Open a Pull Request
 
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
 
 📧 Contact
 For questions or suggestions, feel free to open an issue on GitHub.
-
-🌦️ Built with curiosity, learning, and a love for clean UI 
-## 👤 Author
 
 Developed by [@nadiyadrakrishna](https://github.com/nadiyadrakrishna)
