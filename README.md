@@ -105,4 +105,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 📧 Contact
 For questions or suggestions, feel free to open an issue on GitHub.
 
-🌦️ Built with curiosity, learning, and a love for clean UI – by @nadiyadrakrishna
+🌦️ Built with curiosity, learning, and a love for clean UI 
+## 👤 Author
+
+Developed by [@nadiyadrakrishna](https://github.com/nadiyadrakrishna)
