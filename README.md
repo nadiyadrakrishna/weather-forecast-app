@@ -67,13 +67,13 @@ http://localhost:3000
 ## 🖼️ Screenshots
 
 ### 🔸 Search Result – Current Weather
-![Search Result 1](public\images\search-result1.PNG)
+![Search Result 1](public/images/search-result1.PNG)
 
 ### 🔸 Search Result – 5-Day Forecast View
-![Search Result 2](public\images\search-result2.PNG)
+![Search Result 2](public/images/search-result2.PNG)
 
 ### 🔸 Auto-Location Weather Data
-![Search Result 3](public\images\search-result3.PNG)
+![Search Result 3](public/images/search-result3.PNG)
 
 🤝 Contributing
 Contributions are welcome! Here’s how you can help:
