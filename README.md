@@ -1,78 +1,99 @@
-Weather Forecast App
-A dynamic web application that provides real-time weather and a 5-day forecast for any city or for your current location.
+# 🌤️ Weather Forecast App
 
-✨ Features
-Current Weather: Displays temperature, humidity, wind speed, and a "feels like" temperature.
+A dynamic and responsive web application that provides real-time weather updates and a 5-day forecast for any city or your current location.
 
-5-Day Forecast: Shows a multi-day forecast with daily highs, lows, and weather conditions.
+---
 
-Search by City: Allows users to search for weather data for a specific city.
+## ✨ Features
 
-Auto-Location: Provides weather information for the user's current location using geolocation.
+- **Current Weather**: Get temperature, humidity, wind speed, and “feels like” temperature.
+- **5-Day Forecast**: Displays daily highs, lows, and weather conditions.
+- **Search by City**: Allows users to search weather data by entering a city name.
+- **Auto-Location**: Uses your device's location to automatically fetch weather data.
+- **Simple Caching**: Reduces redundant API calls using in-memory caching.
+- **Responsive Design**: Works great on mobile, tablet, and desktop devices.
 
-Simple Caching: Implements an in-memory cache to reduce redundant API calls and improve performance.
+---
 
-Responsive Design: The user interface is built to be accessible and functional on both desktop and mobile devices.
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
-Node.js: The backend runtime environment.
+- **Node.js** – Backend runtime environment
+- **Express.js** – Fast and minimalist web framework
+- **EJS (Embedded JavaScript)** – Template engine for dynamic HTML rendering
+- **Axios** – For API requests to OpenWeatherMap
+- **OpenWeatherMap API** – Provides real-time weather and forecast data
+- **Dotenv** – Securely manages API keys using environment variables
 
-Express.js: A fast, unopinionated, minimalist web framework for Node.js.
+---
 
-EJS (Embedded JavaScript): A templating engine to generate HTML with dynamic data.
+## 🚀 Getting Started
 
-Axios: A promise-based HTTP client for making API requests.
+### ✅ Prerequisites
 
-OpenWeatherMap API: The data source for all weather and forecast information.
+- Node.js and npm installed on your system
 
-Dotenv: To manage environment variables and keep the API key secure.
+### 📥 Installation
 
-🚀 Getting Started
-Follow these steps to get a copy of the project up and running on your local machine.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nadiyadrakrishna/weather-forecast-app.git
+   cd weather-forecast-app
+Install dependencies:
 
-Prerequisites
-You will need to have Node.js and npm installed on your computer.
-
-Installation
-Clone the repository:
-
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-
-Install NPM packages:
-
+bash
+Copy
+Edit
 npm install
+Set up the API key:
 
-Set up your API Key:
+Sign up at OpenWeatherMap to get a free API key.
 
-Get an API key from OpenWeatherMap.
+Create a .env file in the project root and add:
 
-Create a file named .env in the root directory of your project.
+ini
+Copy
+Edit
+WEATHER_API_KEY=your_api_key_here
+Start the application:
 
-Add your API key to the .env file like this:
-
-WEATHER_API_KEY=YOUR_API_KEY_HERE
-
-Important: Do not share this file or commit it to GitHub.
-
-Run the application:
-
+bash
+Copy
+Edit
 npm start
+Visit in browser:
 
-The application will now be running at http://localhost:3000.
+arduino
+Copy
+Edit
+http://localhost:3000
+## 🖼️ Screenshots
+
+### 🔸 Search Result – Current Weather
+![Search Result 1](public/images/search-result1.png)
+
+### 🔸 Search Result – 5-Day Forecast View
+![Search Result 2](public/images/search-result2.png)
+
+### 🔸 Auto-Location Weather Data
+![Search Result 3](public/images/search-result3.png)
 
 🤝 Contributing
-Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are welcome! Here’s how you can help:
 
-Fork the Project.
+Fork the repo
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
+Create your feature branch (git checkout -b feature/YourFeature)
 
-Commit your Changes (git commit -m 'Add some AmazingFeature').
+Commit your changes (git commit -m 'Add your feature')
 
-Push to the Branch (git push origin feature/AmazingFeature).
+Push to the branch (git push origin feature/YourFeature)
 
-Open a Pull Request.
+Open a Pull Request
 
 📜 License
-Distributed under the MIT License. See LICENSE for more information.
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+📧 Contact
+For questions or suggestions, feel free to open an issue on GitHub.
+
+🌦️ Built with curiosity, learning, and a love for clean UI – by @nadiyadrakrishna
