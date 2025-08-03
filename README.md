@@ -40,53 +40,60 @@ A dynamic and responsive web application that provides real-time weather updates
    cd weather-forecast-app
 Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install
+```
 Set up the API key:
 
 Sign up at OpenWeatherMap to get a free API key.
 
 Create a .env file in the project root and add:
 
-ini
-Copy
-Edit
+```bash
 WEATHER_API_KEY=your_api_key_here
+```
+
 Start the application:
 
-bash
-Copy
-Edit
+```bash
 npm start
+```
+
 Visit in browser:
 
-arduino
-Copy
-Edit
+```bash
 http://localhost:3000
+```
 ## 🖼️ Screenshots
 
 ### 🔸 Search Result – Current Weather
-![Search Result 1](public/images/search-result1.png)
+![Search Result 1](public\images\search-result1.PNG)
 
 ### 🔸 Search Result – 5-Day Forecast View
-![Search Result 2](public/images/search-result2.png)
+![Search Result 2](public\images\search-result2.PNG)
 
 ### 🔸 Auto-Location Weather Data
-![Search Result 3](public/images/search-result3.png)
+![Search Result 3](public\images\search-result3.PNG)
 
 🤝 Contributing
 Contributions are welcome! Here’s how you can help:
 
 Fork the repo
 
-Create your feature branch (git checkout -b feature/YourFeature)
+Create your feature branch 
+```bash
+(git checkout -b feature/YourFeature)
+```
 
-Commit your changes (git commit -m 'Add your feature')
+Commit your changes
+```bash
+ (git commit -m 'Add your feature')
+```
 
-Push to the branch (git push origin feature/YourFeature)
+Push to the branch
+```bash 
+(git push origin feature/YourFeature)
+```
 
 Open a Pull Request
 
